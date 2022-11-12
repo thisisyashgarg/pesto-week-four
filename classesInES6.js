@@ -25,5 +25,3 @@ console.log(e);
 function yash(){
 
 }
-console.log(getPrototypeOf(yash));
-// console.log(getPrototypeOf(yash).getPrototypeOf);

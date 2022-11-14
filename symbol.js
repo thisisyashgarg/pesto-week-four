@@ -29,7 +29,7 @@ console.log(Symbol.keyFor(globalSym));
 //NOT COERIVE TO A PRIMTIVE
 // console.log(sym + ' '); // thows error
 
-//WELL KNOWN SYMBOLS
+//WELL KNOWN SYMBOL
 class A {
     static [Symbol.hasInstance](){
         console.log('Symbol.hasInstance has been called');
@@ -37,7 +37,7 @@ class A {
     }
 };
 let a = new A();
-console.log( a instanceof A);
+console.log( a instanceof A); //similar to operator overloading
 
 
 
